@@ -29,3 +29,11 @@ li {
     padding-top: 15px;    
     font-size: 18px;
 }
+.neonlink {
+    color:rgb(137, 137, 255);
+    font-family: feneon-single, sans-serif;
+    font-weight: 400;
+    text-shadow: 0 0 7px rgb(60, 60, 255), 0 0 6px rgb(60, 60, 255), 0 0 2px rgb(60, 60, 255);
+    padding-top: 15px;
+    font-size: 18px;
+}
