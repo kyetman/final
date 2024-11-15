@@ -30,10 +30,33 @@ li {
     font-size: 18px;
 }
 .neonlink {
-    color:rgb(137, 137, 255);
+    color:rgb(255, 253, 186);
+    text-decoration:underline 0.75px;
+    font-family: feneon-single, sans-serif;
+    font-weight: 400;
+    text-shadow: 0 0 7px rgb(255, 242, 60), 0 0 6px rgb(255, 242, 60), 0 0 2px rgb(255, 242, 60);
+    padding-top: 15px;
+    font-size: 18px;
+    border:1.5px solid rgb(255, 253, 186);
+    border-radius: 7px;
+    box-shadow: 0 0 7px rgb(255, 242, 60), 0 0 6px rgb(255, 242, 60), 0 0 2px rgb(255, 242, 60), 0 0 7px rgb(255, 242, 60) inset, 0 0 6px rgb(255, 242, 60) inset, 0 0 2px rgb(255, 242, 60) inset;
+}
+
+/*
+a:hover {
+    background-color: yellow;
+    font-size: 18px;
+    color:blue;
+}
+*/
+/*color:rgb(137, 137, 255);
+    text-decoration:underline 0.75px;
     font-family: feneon-single, sans-serif;
     font-weight: 400;
     text-shadow: 0 0 7px rgb(60, 60, 255), 0 0 6px rgb(60, 60, 255), 0 0 2px rgb(60, 60, 255);
     padding-top: 15px;
     font-size: 18px;
-}
+    border:1.5px solid rgb(137, 137, 255);
+    border-radius: 7px;
+    box-shadow: 0 0 7px rgb(60, 60, 255), 0 0 2px rgb(60, 60, 255), 0 0 7px rgb(60, 60, 255) inset, 0 0 2px rgb(60, 60, 255) inset;
+*/
