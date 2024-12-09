@@ -41,8 +41,86 @@ li {
     border-radius: 7px;
     box-shadow: 0 0 7px rgb(255, 242, 60), 0 0 6px rgb(255, 242, 60), 0 0 2px rgb(255, 242, 60), 0 0 7px rgb(255, 242, 60) inset, 0 0 6px rgb(255, 242, 60) inset, 0 0 2px rgb(255, 242, 60) inset;
 }
+.menuactive {
+    margin-right: 8px;
+    margin-top:1px;
+    margin-bottom: 4px;
+    border:1.5px solid brown;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 0 0 3px brown inset, 0 0 3px brown;
+    text-align: center;
+    font-family: feneon-single, sans-serif;
+    color: brown;
+    font-size:18px;
+    text-shadow: 0 0 2px brown;
+    
+}
+.menunav{
+    margin-right: 8px;
+    margin-top:1px;
+    margin-bottom: 4px;
+    border:1.5px solid white;
+    border-radius: 7px;
+    background-color: white;
+    text-align: center;
+    font-family: feneon-single, sans-serif;
+    color: brown;
+    font-size:18px;
+    text-shadow: 0 0 2px brown;
+}
+.card {
+    border:1.5px solid brown;
+    border-radius: 7px;
+    background-color: white;
+}
+a.menunav:hover, a.menunav:active {
+    border:1.5px solid brown;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 0 0 3px brown inset, 0 0 3px brown;
+    color: brown;
+}
+a.menuactive:hover, a.menuactive:active {
+    border:1.5px solid brown;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 0 0 3px brown inset, 0 0 3px brown;
+    color: brown;
+}
+.card-title {
+    color: brown;
+    padding-left: 5px;
+    padding-top:10px;
+    font-family: feneon-single, sans-serif;
 
-/*
+}
+.card-body {
+    font-family: feneon-single, sans-serif;
+    color: brown;
+    font-size:14px
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23a52a2a' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23a52a2a' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+h1 {
+    color: brown;
+    font-family: funkydori, sans-serif; 
+    font-size: 55px; 
+    font-weight: 400; 
+    font-style: normal; 
+    text-align: center;
+}
+
+/* a52a2a
+vVisit us nowv
+color:rgb(241, 222, 222); font-family: funkydori, sans-serif; font-size: 55px; font-weight: 400; font-style: normal; margin-top: 10px; margin-left: -60px; text-align: center;
+font-family: funkydori, sans-serif; font-size: 55px; font-weight: 400; font-style: normal; text-align: center; margin-bottom: 10px;
+^our mission^
 a:hover {
     background-color: yellow;
     font-size: 18px;
